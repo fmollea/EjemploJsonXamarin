@@ -1,0 +1,2 @@
+C:\Proyectos\EjemploJsonXamarin\EjemploJsonXamarin\obj\Debug\EjemploJsonXamarin.csprojResolveAssemblyReference.cache
+C:\Proyectos\EjemploJsonXamarin\EjemploJsonXamarin\obj\Debug\EjemploJsonXamarin.csproj.CoreCompileInputs.cache
