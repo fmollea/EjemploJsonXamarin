@@ -10,39 +10,50 @@
         android:layout_width="match_parent"
         android:inputType="textPersonName"
         android:hint="Autor"
-        android:textColorHint="@android:color/darker_gray" />
+        android:textColorHint="@android:color/darker_gray" 
+        android:textColor="@android:color/black"/>
     <EditText
         android:id="@+id/eLibro"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:inputType="textPersonName"
         android:hint="Libro"
-        android:textColorHint="@android:color/darker_gray" />
+        android:textColorHint="@android:color/darker_gray" 
+        android:textColor="@android:color/black"/>
     <Button
         android:id="@+id/bGenerarJson"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="Generar un Json" />
+        android:text="Generar un Json" 
+        android:background="@android:color/holo_red_dark"
+        android:layout_margin="5dp"/>
     <Button
         android:id="@+id/bMostrarJson"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="Mostrar Json" />
+        android:text="Mostrar Json" 
+        android:background="@android:color/holo_red_dark"
+        android:layout_margin="5dp"/>
     <Button
         android:id="@+id/bGenerarListaJson"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="Generar lista Json" />
+        android:text="Generar lista Json"
+        android:background="@android:color/holo_red_dark"
+        android:layout_margin="5dp"/>
     <Button
         android:id="@+id/bLevantarListaJson"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="Levantar lista Json" />
+        android:text="Levantar lista Json"
+        android:background="@android:color/holo_red_dark"
+        android:layout_margin="5dp"/>
     <EditText
         android:id="@+id/eInfo"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:inputType="textPersonName"
         android:hint="Info"
-        android:textColorHint="@android:color/darker_gray" />
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/black"/>
 </LinearLayout>

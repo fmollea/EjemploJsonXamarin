@@ -22,6 +22,8 @@ namespace EjemploJsonXamarin
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.Main);
+            SetComponents();
+            Delegar();
         }
 
         protected void SetComponents()
@@ -36,8 +38,8 @@ namespace EjemploJsonXamarin
 
             libro = new Libro();
             listaLibros = new List<Libro>();
-            pathLibro = Android.OS.Environment.ExternalStorageDirectory + "/Documents/Libro.json";
-            pathListaLibro = Android.OS.Environment.ExternalStorageDirectory + "/Documents/ListaLibros.json";
+            pathLibro = Android.OS.Environment.ExternalStorageDirectory + "/Download/Libro.json";
+            pathListaLibro = Android.OS.Environment.ExternalStorageDirectory + "/Download/ListaLibros.json";
         }
 
         protected void Delegar()
@@ -64,6 +66,9 @@ namespace EjemploJsonXamarin
                     libro.nombre = eLibro.Text;
                     var stringJson = JsonConvert.SerializeObject(libro);
                     File.WriteAllText(pathLibro, stringJson);
+
+                    eAutor.Text = string.Empty;
+                    eLibro.Text = string.Empty;
                 }
             }
             catch (Exception e)

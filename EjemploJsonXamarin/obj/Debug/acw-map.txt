@@ -1,0 +1,4 @@
+EjemploJsonXamarin.MainActivity, EjemploJsonXamarin;md5dc2c783606a8b8a7af7a688a65c1a6f6.MainActivity
+EjemploJsonXamarin.MainActivity, EjemploJsonXamarin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5dc2c783606a8b8a7af7a688a65c1a6f6.MainActivity
+EjemploJsonXamarin.MainActivity;md5dc2c783606a8b8a7af7a688a65c1a6f6.MainActivity
+ejemplojsonxamarin.MainActivity;md5dc2c783606a8b8a7af7a688a65c1a6f6.MainActivity
